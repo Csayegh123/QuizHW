@@ -202,9 +202,8 @@ const questions = [
   }
 
 ]
-
 var count = 25;
-var interval = setInterval(function.(){
+var interval = setInterval(function(){
   document.getElementById('count').innerHTML=count;
   count--;
   if (count === 0){
